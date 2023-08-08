@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		03AC8F6D2A250B7400BE5D55 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC8F6C2A250B7400BE5D55 /* StoreItemView.swift */; };
 		03AC8F6F2A250B8D00BE5D55 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC8F6E2A250B8D00BE5D55 /* StoresContainerView.swift */; };
+		165B6A802A828546009331BF /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B6A7F2A828546009331BF /* StoreDetailView.swift */; };
+		165B6A822A828BD3009331BF /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B6A812A828BD3009331BF /* StoreType.swift */; };
+		165B6A842A828C5A009331BF /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B6A832A828C5A009331BF /* ProductType.swift */; };
 		180B33692A16635500C1AFBC /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B33682A16635500C1AFBC /* CarouselItemView.swift */; };
 		180B336F2A166A3200C1AFBC /* CarouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B336E2A166A3200C1AFBC /* CarouselTabView.swift */; };
 		1828E78F2A151C6700B8A3C6 /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828E78E2A151C6700B8A3C6 /* ChefDeliveryApp.swift */; };
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		03AC8F6C2A250B7400BE5D55 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
 		03AC8F6E2A250B8D00BE5D55 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
+		165B6A7F2A828546009331BF /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
+		165B6A812A828BD3009331BF /* StoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
+		165B6A832A828C5A009331BF /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
 		180B33682A16635500C1AFBC /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
 		180B336E2A166A3200C1AFBC /* CarouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselTabView.swift; sourceTree = "<group>"; };
 		1828E78B2A151C6700B8A3C6 /* ChefDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +70,7 @@
 			children = (
 				03AC8F6C2A250B7400BE5D55 /* StoreItemView.swift */,
 				03AC8F6E2A250B8D00BE5D55 /* StoresContainerView.swift */,
+				165B6A7F2A828546009331BF /* StoreDetailView.swift */,
 			);
 			path = StoresView;
 			sourceTree = "<group>";
@@ -138,6 +145,8 @@
 			children = (
 				1828E7B22A15589100B8A3C6 /* OrderType.swift */,
 				1828E7B42A15594100B8A3C6 /* DataSourceMock.swift */,
+				165B6A812A828BD3009331BF /* StoreType.swift */,
+				165B6A832A828C5A009331BF /* ProductType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,15 +222,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1828E7B32A15589100B8A3C6 /* OrderType.swift in Sources */,
+				165B6A842A828C5A009331BF /* ProductType.swift in Sources */,
 				180B33692A16635500C1AFBC /* CarouselItemView.swift in Sources */,
 				1828E7912A151C6700B8A3C6 /* ContentView.swift in Sources */,
 				1828E7B52A15594100B8A3C6 /* DataSourceMock.swift in Sources */,
 				03AC8F6F2A250B8D00BE5D55 /* StoresContainerView.swift in Sources */,
 				1828E7B72A15639C00B8A3C6 /* OrderTypeView.swift in Sources */,
 				03AC8F6D2A250B7400BE5D55 /* StoreItemView.swift in Sources */,
+				165B6A802A828546009331BF /* StoreDetailView.swift in Sources */,
 				1828E7A62A15451F00B8A3C6 /* OrderTypeGridView.swift in Sources */,
 				1828E78F2A151C6700B8A3C6 /* ChefDeliveryApp.swift in Sources */,
 				1828E7A32A15264A00B8A3C6 /* NavigationBar.swift in Sources */,
+				165B6A822A828BD3009331BF /* StoreType.swift in Sources */,
 				180B336F2A166A3200C1AFBC /* CarouselTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
